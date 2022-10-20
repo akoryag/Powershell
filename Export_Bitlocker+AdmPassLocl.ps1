@@ -1,4 +1,9 @@
-﻿$Date = (Get-Date).ToString('dd.MM.yyyy')
+﻿<#
+Позволяет выгружать Пароль Восстеовления Bitlocker и Пароль локального администратора
+Для работы необходимо установить LAPS (Local admin password solution) и модуль Active Directory 
+Add-WindowsFeature -Name "RSAT-AD-PowerShell" –IncludeAllSubFeature
+#>
+$Date = (Get-Date).ToString('dd.MM.yyyy')
 $OU = 'OU Path'
 $fileAdm = 'ADMpassword_'+$date+'.txt' 
 $fileBit = 'Bitlocker_'+$Date+'.txt' 
