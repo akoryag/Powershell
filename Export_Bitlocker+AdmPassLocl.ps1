@@ -1,5 +1,5 @@
 ﻿<#
-Позволяет выгружать Пароль Восстеовления Bitlocker и Пароль локального администратора
+Позволяет выгружать Пароль Восстановления Bitlocker и Пароль локального администратора
 Для работы необходимо установить LAPS (Local admin password solution) и модуль Active Directory 
 Add-WindowsFeature -Name "RSAT-AD-PowerShell" –IncludeAllSubFeature
 #>
